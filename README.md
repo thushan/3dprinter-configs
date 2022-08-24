@@ -4,14 +4,14 @@ These are my personal 3D Printer Configurations for various printers, their conf
 
 # Printers
 
-* [Artillery Genius](./artillery-genius/README.md) (v1.0) ([info](https://artillery3d.com/products/artillery-genius-3d-printer-kit-220220250mm-print-size-with-ultra-quiet-stepper-motor-tft-touch-screen))
+* [Artillery Genius](./artillery-genius/) (v1.0) ([info](https://artillery3d.com/products/artillery-genius-3d-printer-kit-220220250mm-print-size-with-ultra-quiet-stepper-motor-tft-touch-screen))
 * Cocoon Create Touch (Wanhao i3 Duplicator Touch Clone) ([info](https://cocoonproducts.com.au/all-products/3dprinters/3d-printer-touch/))
 * FLSun Super Racer ([info](https://flsun3d.com/products/super-racer-sr))
 * Voron 2.4 ([info](https://vorondesign.com/voron2.4))
 
 # Printer Server
 
-All printers run off either [Mainsail](https://docs.mainsail.xyz/) or [OctoPrint](https://octoprint.org/) and currently run on a 64bit [Pine A64 2GB board](https://wiki.pine64.org/wiki/PINE_A64) which was obtained on [Kickstarter in 2016](https://www.kickstarter.com/projects/pine64/pine-a64-first-15-64-bit-single-board-super-comput).
+All printers run off either [Mainsail](https://docs.mainsail.xyz/) or [OctoPrint](https://octoprint.org/) and currently run on a 64bit [Pine A64 2GB board](https://wiki.pine64.org/wiki/PINE_A64) which was obtained on [Kickstarter in 2016](https://www.kickstarter.com/projects/pine64/pine-a64-first-15-64-bit-single-board-super-comput). Connected via a powered USB 2.0 hub - Pine A64 has only 2 ports.
 
 
 <table>
