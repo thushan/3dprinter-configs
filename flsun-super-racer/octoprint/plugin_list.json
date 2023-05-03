@@ -1,0 +1,1 @@
+[{"key": "mqtt", "name": "MQTT", "url": "https://github.com/OctoPrint/OctoPrint-MQTT"}, {"key": "homeassistant", "name": "HomeAssistant Discovery", "url": "https://github.com/cmroche/OctoPrint-HomeAssistant"}]

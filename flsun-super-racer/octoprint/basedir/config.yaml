@@ -1,0 +1,18 @@
+temperature:
+  profiles:
+  - bed: 100
+    chamber: null
+    extruder: 210
+    name: ABS
+  - bed: 60
+    chamber: null
+    extruder: 180
+    name: PLA
+  - bed: 80
+    chamber: 0
+    extruder: 220
+    name: PETG
+  - bed: 60
+    chamber: 0
+    extruder: 210
+    name: PLA+
