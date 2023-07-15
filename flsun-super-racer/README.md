@@ -1,9 +1,7 @@
 # FLSun Super Racer Configurations
 **NOTE**: Majority of the configurations for Klipper are from the hardwork of [@Guilouz](https://github.com/Guilouz/Klipper-Flsun-Super-Racer) which the repo was based on - we both worked on the CURA profiles for the FLSun SR.
 
-<p align="center">
-  <img src="./artefacts/flsun-super-racer-print-volume.jpg">
-</p>
+Setting up your FLSun Super Racer with Klipper and modifications (like the FYSETC Input Shaper) are well documented (in French) on [Klipper FLSun Super Racer](https://guilouz.github.io/Klipper-Flsun-Super-Racer/configurations/adxl/) by him.
 
 # Product Info
 
@@ -47,10 +45,16 @@ First and foremost the stock extruder (Bondtech BMG Clone) is rubbish and should
 * Bi-Metal heatbreak
 * Volcano Heatblock
 * E3D Volcano Nozzle - 0.4mm Hardened Steel
-* [Meanwell LRS350-2](https://www.meanwell.com/productPdf.aspx?i=459) PSU - bought from [Mouser](https://au.mouser.com/ProductDetail/MEAN-WELL/LRS-350-24?qs=ah3jBNVE1PT%252BkwLcackrGA%3D%3D).
+* [Meanwell LRS350-2](https://www.meanwell.com/productPdf.aspx?i=459) PSU - bought from [Mouser](https://au.mouser.com/ProductDetail/MEAN-WELL/LRS-350-24?qs=ah3jBNVE1PT%252BkwLcackrGA%3D%3D)
+* [FYSETC Input Shaper](https://www.fysetc.com/products/fysetc-portable-input-shaper-with-rp2040-upgraded-3d-printer-parts-support-klipper-for-voron-2-4-0-1-trident) - from the Voron, but with a RP2040, makes this so easy within Klipper. (see [instructions](https://guilouz.github.io/Klipper-Flsun-Super-Racer/configurations/adxl/))
 
 ## Klipper
 
 Both FLSun Super Racers (as of May 2023+) now run on Klipper.
 
 One printer (original) came with the SKR v1.3 Clone and was replaced with the MKS Nano v3 after some modifications to the chasis to accomodate/fit it in. This was ideally to simplify the Klipper installations.
+
+## Printer
+<p align="center">
+  <img src="./artefacts/flsun-super-racer-print-volume.jpg">
+</p>
