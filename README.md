@@ -27,7 +27,9 @@ Core OS is [DietPi](https://dietpi.com/#download), specific to their architectur
 
 [Mainsail](https://docs.mainsail.xyz/) (2023) is the current Klipper front-end - but nothing against Fluidd or [OctoPrint](https://octoprint.org/).
 
-Power was measured by [KASA KP114 Smart Plugs](https://www.tp-link.com/au/home-networking/smart-plug/kp115/). Goal is to minimise power utilisation (disabling/tweaking BIOS/Configuration to do so).
+Power was measured by [KASA KP114 Smart Plugs](https://www.tp-link.com/au/home-networking/smart-plug/kp115/). 
+
+Goal is to minimise power utilisation (disabling/tweaking BIOS/Configuration to do so) - they run headless.
 
 Printer power usage & telemetry is captured in HomeAssistant for profiling print jobs/costs.
 
@@ -54,8 +56,8 @@ See [Udoo x86 Specifications](https://www.udoo.org/docs-x86/Introduction/Introdu
   </tr>
   <tr>
     <th>OS</th>
-    <td>DietPi PINE A64: Bookworm (Debian 13)<br/> 
-    <small><a href="https://dietpi.com/downloads/images/DietPi_PINEA64-ARMv8-Bookworm.7z">DietPi_PINEA64-ARMv8-Bookworm</a> | <a href="https://github.com/th33xitus/kiauh">Kiauh Installer</a></small></td>
+    <td>DietPi PC (UEFI): Bookworm (Debian 13)<br/> 
+    <small><a href="https://dietpi.com/downloads/images/DietPi_NativePC-UEFI-x86_64-Bookworm_Installer.7z">DietPi_NativePC-UEFI-x86_64-Bookworm</a> | <a href="https://github.com/th33xitus/kiauh">Kiauh Installer</a></small></td>
   </tr>
   <tr>
   <th>Limitations <br/>& Notes</th>
@@ -65,6 +67,7 @@ See [Udoo x86 Specifications](https://www.udoo.org/docs-x86/Introduction/Introdu
      <li>SATA for Disk</li>
      <li>External 12v Power Supply</li>
      <li>GPIO Pins for sensors</li>
+     <li>Disable: Graphics, Audio</li>
     </ul>
   </td>
   </tr>
