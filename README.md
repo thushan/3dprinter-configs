@@ -4,8 +4,8 @@ These are my personal 3D Printer Configurations for various printers, their conf
 
 # Printers
 
-* [Artillery Genius](./artillery-genius/) (v1.0) [[info](https://artillery3d.com/products/artillery-genius-3d-printer-kit-220220250mm-print-size-with-ultra-quiet-stepper-motor-tft-touch-screen)]
-* [FLSun Super Racer](./flsun-super-racer/) [[info](https://flsun3d.com/products/super-racer-sr)]
+* [Artillery Genius](./artillery-genius/README.md) (v1.0) [[info](https://artillery3d.com/products/artillery-genius-3d-printer-kit-220220250mm-print-size-with-ultra-quiet-stepper-motor-tft-touch-screen)]
+* [FLSun Super Racer](./flsun-super-racer/README.md) [[info](https://flsun3d.com/products/super-racer-sr)]
 * Voron 2.4 [[info](https://vorondesign.com/voron2.4)]
 * RatRig v-Core 3.1 [[info](https://ratrig.com/3d-printers/rat-rig-kits/v-core3default.html)]
 
@@ -55,7 +55,7 @@ See [Udoo x86 Specifications](https://www.udoo.org/docs-x86/Introduction/Introdu
   <tr>
     <th>OS</th>
     <td>DietPi PINE A64: Bookworm (Debian 13)<br/> 
-    <small><a href="hhttps://dietpi.com/downloads/images/DietPi_PINEA64-ARMv8-Bookworm.7z">DietPi_PINEA64-ARMv8-Bookworm</a> | <a href="https://github.com/th33xitus/kiauh">Kiauh Installer</a></small></td>
+    <small><a href="https://dietpi.com/downloads/images/DietPi_PINEA64-ARMv8-Bookworm.7z">DietPi_PINEA64-ARMv8-Bookworm</a> | <a href="https://github.com/th33xitus/kiauh">Kiauh Installer</a></small></td>
   </tr>
   <tr>
   <th>Limitations <br/>& Notes</th>
@@ -96,7 +96,7 @@ See [Pine A64 2GB Specifications](https://wiki.pine64.org/wiki/PINE_A64).
   <tr>
     <th>OS</th>
     <td>DietPi PINE A64: Bookworm (Debian 13)<br/> 
-    <small><a href="hhttps://dietpi.com/downloads/images/DietPi_PINEA64-ARMv8-Bookworm.7z">DietPi_PINEA64-ARMv8-Bookworm</a> | <a href="https://github.com/th33xitus/kiauh">Kiauh Installer</a></small></td>
+    <small><a href="https://dietpi.com/downloads/images/DietPi_PINEA64-ARMv8-Bookworm.7z">DietPi_PINEA64-ARMv8-Bookworm</a> | <a href="https://github.com/th33xitus/kiauh">Kiauh Installer</a></small></td>
   </tr>
   <tr>
   <th>Limitations <br/>& Notes</th>
