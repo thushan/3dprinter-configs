@@ -1,0 +1,50 @@
+{
+    "version": 2,
+    "name": "Flsun Super Racer",
+    "inherits": "fdmprinter",
+    "metadata":
+    {
+        "visible": true,
+        "author": "Thushan Fernando, Guislain Cyril",
+        "manufacturer": "Flsun",
+        "file_formats": "text/x-gcode",
+        "platform": "flsun_sr.stl",
+        "has_machine_quality": true,
+        "has_materials": true,
+        "machine_extruder_trains": { "0": "flsun_sr_extruder_0" },
+        "platform_offset": [
+            0,
+            -81,
+            -43.5
+        ],
+        "preferred_quality_type": "normal"
+    },
+    "overrides":
+    {
+        "gantry_height": { "value": "0" },
+        "infill_sparse_density": { "default_value": 10 },
+        "machine_center_is_zero": { "default_value": true },
+        "machine_depth": { "default_value": 264 },
+        "machine_end_gcode": { "default_value": "END_PRINT" },
+        "machine_extruder_count": { "default_value": 1 },
+        "machine_gcode_flavor": { "default_value": "RepRap (Marlin/Sprinter)" },
+        "machine_head_with_fans_polygon":
+        {
+            "default_value": [
+                [0, 0],
+                [0, 0],
+                [0, 0],
+                [0, 0]
+            ]
+        },
+        "machine_heated_bed": { "default_value": true },
+        "machine_height": { "default_value": 320 },
+        "machine_nozzle_size": { "default_value": 0.4 },
+        "machine_shape": { "default_value": "elliptic" },
+        "machine_start_gcode": { "default_value": ";Nozzle diameter = {machine_nozzle_size}\n;Filament type = {material_type}\n;Filament name = {material_brand} {material_name}\n;Filament weight = {filament_weight}\n;M109 S{material_print_temperature}\n;M190 S{material_bed_temperature}\nSTART_PRINT BED_TEMP={material_bed_temperature_layer_0} EXTRUDER_TEMP={material_print_temperature_layer_0}\n" },
+        "machine_width": { "default_value": 264 },
+        "material_diameter": { "default_value": 1.75 },
+        "retraction_enable": { "default_value": true },
+        "z_seam_type": { "value": "'back'" }
+    }
+}
